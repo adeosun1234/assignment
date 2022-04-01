@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+    outline: none;
+    border: none;
+    list-style: none;
+    text-decoration: none;
+}
+
+img{
+    border-radius: 10px;
+}
+main{
+    border: 1px solid rgb(219, 219, 219);
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    width: 80vw;
+    margin: 2vh auto;
+    display: flex;
+}
+form{
+    width: 100%;
+    padding: 2vh 2vw 2vh 8vw;
+    line-height: 2;
+}
+form h1, .or{
+    text-align: center;
+}
+form input{
+    width: 80%;
+    border-radius: 8px;
+    border: 1px solid rgb(223, 220, 220);
+    padding: 2vh 2vw;
+}
+.login{
+    background-color: rgb(83, 83, 219);
+    width: 91%;
+    color: white;
+} .nam{
+    margin-left: 62%;
+}
+button{
+    padding: 2vh 3vw;
+    color: white;
+    border-radius: 8px;
+}
+.btn1{
+    background-color: rgb(83, 83, 219);
+    margin-right: 40%;
+}
+.btn2{
+    background-color: rgb(236, 63, 63);
+}
